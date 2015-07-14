@@ -1,3 +1,6 @@
+## AWS
+![AWS](https://lh3.googleusercontent.com/upQblh3bz-Num-jochnMcnC9OZ8HQi3ivw_wXtit-fo=w216-h288-no)
+
 ## AWS basic
 * Region은 도쿄
 * VPC 안에 생성 
