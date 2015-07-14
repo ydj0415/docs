@@ -16,7 +16,7 @@
 * 도쿄를 제외한 모든 region 선택가능
 
 ## VPC 선택
-![vpc](https://lh3.googleusercontent.com/F5kxbC1TxQTH1mRwlbWklyoEPCtIBuMkFeJkth2R7vM=s128-no Virtual Private Cloud)
+![vpc](https://lh3.googleusercontent.com/F5kxbC1TxQTH1mRwlbWklyoEPCtIBuMkFeJkth2R7vM=s128-no) Virtual Private Cloud
 
 ## Subnet
 * 하나의 VPC 내에 생성 할 수 있는 IP 주소 범위 개체
