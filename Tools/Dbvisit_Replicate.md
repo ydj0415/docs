@@ -78,7 +78,6 @@
 
 ### 명령어 모음
 
-|명령어|내용|
-|-|-|
-|shutdown all|전체 프로세스 종료|
-|pause apply|프로세스 일시 정지|
+* shutdown all  
+전체 프로세스 종료
+
