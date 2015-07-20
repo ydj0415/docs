@@ -1,4 +1,8 @@
 # 리눅스 명령어
+
+[1. SYSTEM](#1)  
+[2. HARDWARE](#2)
+
 ## 1. SYSTEM
 
 	$ uname -a                       => Display linux system information
