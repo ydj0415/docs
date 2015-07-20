@@ -1,6 +1,6 @@
 # FreeXN
 
-FreeNX 는 SSH Port 를 이용하여 X-Window 에 접속할 수 있게하여 줍니다.
+FreeNX 는 SSH Port 를 이용하여 X-Window 에 접속할 수 있게해준다.
 
 ## 설치
 
