@@ -1,7 +1,7 @@
 # 리눅스 명령어
 
-[1. SYSTEM](#1)  
-[2. HARDWARE](#2)
+[1. SYSTEM](#1-system)  
+[2. HARDWARE](#2-hardware)
 
 ## 1. SYSTEM
 
