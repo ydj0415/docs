@@ -4,8 +4,14 @@ pg_statsinfo는 PostgreSQL의 통계 및 활동을 감시하는 유틸리티 입
 
 ## 동작 방식
 
+#### 구성
+
 pg_statsinfo는 3가지 주요 부분으로 구성됩니다.
 
 * pg_statsinfod : 에이전트 프로그램으로 대상서버의 스냅샷 정보를 주기적으로 레파지토리 서버에 보냅니다.
-* repository database : 스냅샷의 순서에 맞게 수집정보를 저장하는 서버
-* 
+* repository database : 스냅샷의 시간 순서에 맞게 수집정보를 저장하는 서버
+* pg_stats_reporter : 사용자가 직관적인 방식으로 레파지토리 서버를 확인 할 수 있는 그래픽 뷰어
+
+#### 아키텍쳐
+
+![pg_statsinfo architecture](https://lh3.googleusercontent.com/Z7AeEBW3NWCBd4ZMvJoT6QMCkR3kxewy9xRlFeqgErA=w660-h495-no)
