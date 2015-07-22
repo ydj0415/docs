@@ -1,10 +1,11 @@
 # DBA Script
 
 #### 기본 Configuration
-SELECT NAME ,setting ,unit ,short_desc ,extra_desc ,boot_val ,reset_val ,sourcefile ,sourceline ,context ,vartype ,source ,min_val ,max_val FROM pg_settings ORDER BY NAME;
+
+	SELECT NAME ,setting ,unit ,short_desc ,extra_desc ,boot_val ,reset_val ,sourcefile ,sourceline ,context ,vartype ,source ,min_val ,max_val FROM pg_settings ORDER BY NAME;
 
 #### 기본이 아닌 변경된 Configuration
-SELECT NAME ,setting ,unit ,short_desc ,extra_desc ,context ,vartype ,source ,min_val ,max_val FROM pg_settings WHERE source <> 'default' ORDER BY NAME;
+	SELECT NAME ,setting ,unit ,short_desc ,extra_desc ,context ,vartype ,source ,min_val ,max_val FROM pg_settings WHERE source <> 'default' ORDER BY NAME;
 
 
 로그파일 이름, 크기, 로그정보	SELECT * FROM ( SELECT pg_ls_dir('pg_log')) AS tmp (filename) WHERE filename LIKE '%csv' AND EXISTS (SELECT 1 FROM pg_stat_file('pg_log/'||filename) WHERE not isdir) ORDER BY 1 DESC LIMIT 1 -- to get the latest filename
