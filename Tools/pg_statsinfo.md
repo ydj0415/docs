@@ -1,5 +1,5 @@
 # pg_statsinfo
-변경
+
 pg_statsinfo는 PostgreSQL의 통계 및 활동을 감시하는 유틸리티 입니다. pg_statsinfo는 쉽게 설치가 가능하며, 레파지토리 서버에 타겟 PostgreSQL 서버의 활동 정보와 시스템 리소스에 대한 내용을 정기적으로 스냅샷을 찍어 저장합니다. 이러한 스냅샷을 pg_stats_reporter라는 도구를 이용해 Web 기반으로 시각화하여 보여줍니다. 이 도구는 PostgreSQL 데이터베이스 관리자를 위해 상태 체크 또는 쉽게 서버의 활동 정보를 분석합니다.
 
 ## 동작 방식
