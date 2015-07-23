@@ -37,4 +37,4 @@ php를 이용하여 데이터베이스 상태 정보를 스냅샷 찍는 프로�
 	./pgsnap.php --without-sysobjects --with-old-libpq
 	
 	# 압축
-	tar cvf edb_snap_20141224.tar edb_snap_20141224/
+	tar cvf edb_snap_20141224.tar edb_snap_20141224
