@@ -24,6 +24,12 @@ php를 이용하여 데이터베이스 상태 정보를 스냅샷 찍는 프로�
 	sed '/reltoastidxid/d' lib/sequences.php > lib/sequences.php 
 	sed '/reltoastidxid/d' lib/indexes.php > lib/indexes.php
 
+#### 5. date.timezone 확인
+
+	su
+	vi /etc/php.ini
+	date.timezone = Asia/Seoul
+
 ## 스냅샷
 
 다음의 명령어로 데이터베이스 상태를 저장한다. edb_snap_yyyymmdd 형태의 디렉토리에 저장된다.
