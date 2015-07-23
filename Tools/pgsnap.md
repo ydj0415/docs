@@ -4,20 +4,20 @@ php를 이용하여 데이터베이스 상태 정보를 스냅샷 찍는 프로�
 
 ## 설치
 
-1. php pgsql 모듈 설치
+#### 1. php pgsql 모듈 설치
 
 	yum -y install php-pgsql php-cli
 
-2. pgsnap 다운로드
+#### 2. pgsnap 다운로드
 
 	curl -O -L https://github.com/downloads/dalibo/pgsnap/pgsnap-0.8.0.tar.gz
 
-3. 압축 해제
+#### 3. 압축 해제
 
 	tar xvf pgsnap-0.8.0.tar.gz
 	cd pgsnap-0.8.0
 
-4. 9.4 사용 시 reltoastidxid 이 있는 라인을 제거해준다.
+#### 4. 9.4 사용 시 reltoastidxid 이 있는 라인을 제거해준다.
 
 	vi pgsnap-0.8.0/lib/tables.php
 	vi pgsnap-0.8.0/lib/views.php
