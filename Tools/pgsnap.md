@@ -19,10 +19,10 @@ php를 이용하여 데이터베이스 상태 정보를 스냅샷 찍는 프로�
 
 #### 4. 9.4 사용 시 reltoastidxid 이 있는 라인을 제거해준다.
 
-	vi lib/tables.php
-	vi lib/views.php
-	vi lib/sequences.php
-	vi lib/indexes.php 
+	sed '/reltoastidxid/d' lib/tables.php > lib/tables.php
+	sed '/reltoastidxid/d' lib/views.php > lib/views.php
+	sed '/reltoastidxid/d' lib/sequences.php > lib/sequences.php 
+	sed '/reltoastidxid/d' lib/indexes.php > lib/indexes.php
 
 ## 스냅샷
 
